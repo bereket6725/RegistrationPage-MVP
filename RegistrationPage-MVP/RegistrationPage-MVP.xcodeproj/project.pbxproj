@@ -12,7 +12,6 @@
 		E315DAE721CC94260003AED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E315DAE521CC94260003AED6 /* Main.storyboard */; };
 		E315DAE921CC94280003AED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E315DAE821CC94280003AED6 /* Assets.xcassets */; };
 		E315DAEC21CC94280003AED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E315DAEA21CC94280003AED6 /* LaunchScreen.storyboard */; };
-		E315DAF721CC94280003AED6 /* RegistrationPage_MVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315DAF621CC94280003AED6 /* RegistrationPage_MVPTests.swift */; };
 		E315DB0221CC95C90003AED6 /* RegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315DB0121CC95C90003AED6 /* RegistrationPresenter.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 		E315DAEB21CC94280003AED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E315DAED21CC94280003AED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E315DAF221CC94280003AED6 /* RegistrationPage-MVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RegistrationPage-MVPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E315DAF621CC94280003AED6 /* RegistrationPage_MVPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPage_MVPTests.swift; sourceTree = "<group>"; };
 		E315DAF821CC94280003AED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E315DB0121CC95C90003AED6 /* RegistrationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +91,6 @@
 		E315DAF521CC94280003AED6 /* RegistrationPage-MVPTests */ = {
 			isa = PBXGroup;
 			children = (
-				E315DAF621CC94280003AED6 /* RegistrationPage_MVPTests.swift */,
 				E315DAF821CC94280003AED6 /* Info.plist */,
 			);
 			path = "RegistrationPage-MVPTests";
@@ -210,7 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E315DAF721CC94280003AED6 /* RegistrationPage_MVPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

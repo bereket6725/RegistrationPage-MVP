@@ -34,11 +34,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
 extension ViewController: RegistrationDelegate {
     func showProgress() {
-        <#code#>
+    
     }
     
     func hideProgress() {
-        <#code#>
+        
     }
     
     func registrationDidSucceed() {
