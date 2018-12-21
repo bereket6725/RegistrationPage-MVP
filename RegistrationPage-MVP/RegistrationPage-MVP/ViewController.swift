@@ -8,8 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet var EmailTextField: UITextField!
+    @IBOutlet var PasswordTextField: UITextField!
+    @IBOutlet var FullNameTextField: UITextField!
+    @IBOutlet var PhoneNumberTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
